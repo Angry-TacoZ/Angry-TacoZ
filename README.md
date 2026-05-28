@@ -42,6 +42,20 @@ I currently work in healthcare claims operations and spend a lot of my off-hours
 - Data and enterprise tooling: SQL, Power BI, ServiceNow, Microsoft 365
 - Domain context: healthcare operations, claims workflows, audit-sensitive environments
 
+## How I use AI coding agents
+
+I use AI coding tools as implementation partners, but I do not treat generated code as automatically acceptable. My working rules are designed to reduce brittle "vibe coding" failure modes:
+
+- Inspect the existing project, contracts, and related systems before editing.
+- Identify trust boundaries for user input, auth, APIs, secrets, files, databases, and deployments.
+- Keep secrets and paid API keys server-side, never in browser-delivered code or public build artifacts.
+- Prefer framework primitives, typed interfaces, allow-list validation, and parameterized data access over ad hoc shortcuts.
+- Test denied, malformed, missing, and boundary cases, not just the happy path.
+- Run the relevant build, type, lint, runtime, browser, or deployment checks before calling work done.
+- Report what was verified, what remains uncertain, and what was intentionally left out of scope.
+
+The goal is not to make AI-assisted code look fast. The goal is to make it stand up to review, failure cases, and real users.
+
 ## Writing
 
 - [Medium](https://medium.com/@Angry_TacoZ)  
