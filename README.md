@@ -19,11 +19,11 @@ I currently work in healthcare claims operations and spend a lot of my off-hours
 - [Living Resume AI](https://james-lane-web-resume.web.app/)  
   Interactive resume experience designed to let employers explore my background, projects, and working style through conversation.
 
-- [CAA 2026 PBM Regulatory Assistant](https://caademoweb.web.app/)  
-  Source-grounded assistant built around recent legislation and healthcare PBM impacts for a business-analysis interview context.
+- [CogFit Jobs](https://cogfit-jobs.web.app/)  
+  Profile-based job-fit analyzer that compares job ads against work style, evidence, constraints, and likely day-to-day role demands.
 
-- [BLKVue AI Security Intake Bot](https://blkvueai.web.app/)  
-  Client intake workflow that produces AI-assisted risk assessments aligned to the target security company's own site content.
+- [PDF Equipment Checker](https://pdf-checker-fcd6c.web.app/)  
+  Hosted PDF workflow that compares equipment schedule rows against plan tags and reports missing or mismatched equipment.
 
 - [JamesLaneAI.com](https://jameslaneai.com/)  
   Public-facing consulting site used to package AI capabilities into client-understandable services and offerings.
@@ -31,8 +31,8 @@ I currently work in healthcare claims operations and spend a lot of my off-hours
 - [Cruis'n PA](https://cruisnpa.fun/)  
   Pennsylvania driving-club site built around custom routes, destinations, and event-style presentation.
 
-- [Iron Shores playable demo](https://iron-shores.web.app/)  
-  Browser-based tank roguelite and bullet-hell demo refined through real player use rather than static mockups alone.
+- [Masters of Metal playable demo](https://mastersofmetal.web.app/)  
+  Browser-based tank survivors demo refined through real player use rather than static mockups alone.
 
 ## Tools and platforms I use
 
