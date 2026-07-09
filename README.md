@@ -2,7 +2,7 @@
 
 Nontraditional, systems-oriented builder working at the intersection of healthcare operations, workflow analysis, AI-assisted tooling, and practical web application development.
 
-I currently work in healthcare claims operations and spend a lot of my off-hours building source-grounded assistants, stakeholder-facing demos, workflow tools, and interactive web projects. I am usually strongest where a problem is still a little messy and needs to be clarified, structured, and turned into something people can actually use.
+I currently spend my time building source-grounded assistants, stakeholder-facing demos, workflow tools, and interactive web projects. I am usually strongest where a problem is still a little messy and needs to be clarified, structured, and turned into something people can actually use.
 
 ## What I bring
 
