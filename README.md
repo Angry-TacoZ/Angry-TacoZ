@@ -34,6 +34,10 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 - [Masters of Metal playable demo](https://mastersofmetal.web.app/)  
   Browser-based tank survivors demo refined through real player use rather than static mockups alone.
 
+### Local tools
+
+- **Personal Job Discovery** *(private repository)* — Local-first Python application that discovers public ATS job boards, scores openings against resume evidence and visible screening requirements, and keeps the review queue focused on strong current matches.
+
 ## Tools and platforms I use
 
 - AI and model tooling: ChatGPT, Claude, Gemini APIs, Codex
