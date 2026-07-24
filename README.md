@@ -4,6 +4,10 @@ Nontraditional, systems-oriented builder working at the intersection of healthca
 
 I currently spend my time building source-grounded assistants, stakeholder-facing demos, workflow tools, and interactive web projects. I am usually strongest where a problem is still a little messy and needs to be clarified, structured, and turned into something people can actually use.
 
+## Accessibility and work design
+
+I intentionally share selected accessibility and work-design context because it helps explain the environments and tools where I do my best work. It is personal context, not a substitute for evaluating the project evidence on this profile. Technical work should be assessed on its scope, code, validation, and practical outcomes.
+
 ## What I bring
 
 - Systems thinking over resume-keyword theater
@@ -65,9 +69,9 @@ The goal is not to make AI-assisted code look fast. The goal is to make it stand
 - [Medium](https://medium.com/@Angry_TacoZ)  
   Public writing on politics, civic issues, personal essays, and AI analysis.
 
-## A note on code visibility
+## Selected public evidence
 
-Most of my stronger recent work lives in private repos or in stakeholder-facing demos rather than fully public codebases. I use this profile as a front door to live work, applied experiments, and evidence of how I think and build.
+The repositories and live projects above are selected public examples of how I scope, build, verify, and explain systems. Some project assets remain private or stakeholder-facing, but the public examples are designed to stand on their own for review.
 
 If you're evaluating me for a role, the best starting points are the live projects above and the interactive resume site.
 
