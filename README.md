@@ -36,12 +36,12 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 
 ### Local tools
 
-- **Personal Job Discovery** *(private repository)* — Local-first Python application that discovers public ATS job boards, scores openings against resume evidence and visible screening requirements, and keeps the review queue focused on strong current matches.
+- [Personal Job Discovery](https://github.com/Angry-TacoZ/personal-job-discovery) — Public, local-first Python application that discovers public ATS job boards, scores openings against resume evidence and visible screening requirements, and keeps the review queue focused on strong current matches. It is planned to merge into CogFit Jobs over time.
 
 ## Tools and platforms I use
 
 - AI and model tooling: ChatGPT, Claude, Gemini APIs, Codex
-- Web and app stack: React, Vite, JavaScript, TypeScript, Phaser
+- Web and app stack: React, Vite, JavaScript, TypeScript, Python, Phaser
 - Deployment and automation: Firebase Hosting, Zapier, Airtable
 - Data and enterprise tooling: SQL, Power BI, ServiceNow, Microsoft 365
 - Domain context: healthcare operations, claims workflows, audit-sensitive environments
@@ -64,12 +64,6 @@ The goal is not to make AI-assisted code look fast. The goal is to make it stand
 
 - [Medium](https://medium.com/@Angry_TacoZ)  
   Public writing on politics, civic issues, personal essays, and AI analysis.
-
-## A note on code visibility
-
-Most of my stronger recent work lives in private repos or in stakeholder-facing demos rather than fully public codebases. I use this profile as a front door to live work, applied experiments, and evidence of how I think and build.
-
-If you're evaluating me for a role, the best starting points are the live projects above and the interactive resume site.
 
 ## Contact
 
