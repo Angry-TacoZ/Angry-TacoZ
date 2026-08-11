@@ -19,7 +19,7 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 - [Living Resume AI](https://james-lane-web-resume.web.app/)  
   Interactive resume experience designed to let employers explore my background, projects, and working style through conversation.
 
-  [Delivery Composer](https://composer.jamesai.space/)
+- [Delivery Composer](https://composer.jamesai.space/)  
   Interactive client brief to structured delivery team composition with human oversight and auditability
 
 - [CogFit Jobs](https://cogfit-jobs.web.app/)  
