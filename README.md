@@ -1,16 +1,16 @@
 # James Lane
 
-Nontraditional, systems-oriented builder working at the intersection of healthcare operations, workflow analysis, AI-assisted tooling, and practical web application development.
+Nontraditional, Neurodivergent systems-oriented builder working at the intersection of healthcare operations, workflow analysis, AI-assisted tooling, and practical web application development. 
 
-I currently spend my time building source-grounded assistants, stakeholder-facing demos, workflow tools, and interactive web projects. I am usually strongest where a problem is still a little messy and needs to be clarified, structured, and turned into something people can actually use.
+I currently spend my time building source-grounded assistants, stakeholder-facing demos, workflow tools, and interactive web projects. I am usually strongest where a problem is ambiguous and you want outside the box thinking grounded in SWE fundamentals
 
 ## What I bring
 
-- Systems thinking over resume-keyword theater
-- Practical AI implementation, not trend-chasing
+- Systems thinking
+- Practical AI implementation
 - Workflow analysis, process clarification, and tool design
 - Fast prototype-to-demo execution
-- Honest, evidence-based communication about fit, tradeoffs, and scope
+- Honest, evidence-based communication about fit, tradeoff's, and scope
 
 ## Selected work
 
@@ -19,6 +19,9 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 - [Living Resume AI](https://james-lane-web-resume.web.app/)  
   Interactive resume experience designed to let employers explore my background, projects, and working style through conversation.
 
+  [Delivery Composer] (https://composer.jamesai.space/)
+  Interactive client brief to structured delivery team composition with human oversight and auditability
+
 - [CogFit Jobs](https://cogfit-jobs.web.app/)  
   Profile-based job-fit analyzer that compares job ads against work style, evidence, constraints, and likely day-to-day role demands.
 
@@ -26,7 +29,7 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
   Hosted PDF workflow that compares equipment schedule rows against plan tags and reports missing or mismatched equipment.
 
 - [JamesLaneAI.com](https://jameslaneai.com/)  
-  Public-facing consulting site used to package AI capabilities into client-understandable services and offerings.
+  Public-facing Process mapper used to package AI capabilities into client-understandable services and offerings.
 
 - [Cruis'n PA](https://cruisnpa.fun/)  
   Pennsylvania driving-club site built around custom routes, destinations, and event-style presentation.
@@ -43,8 +46,8 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 - AI and model tooling: ChatGPT, Claude, Gemini APIs, Codex
 - Web and app stack: React, Vite, JavaScript, TypeScript, Python, Phaser
 - Deployment and automation: Firebase Hosting, Zapier, Airtable
-- Data and enterprise tooling: SQL, Power BI, ServiceNow, Microsoft 365
-- Domain context: healthcare operations, claims workflows, audit-sensitive environments
+- Data and enterprise tooling: SQL, Power BI, ServiceNow, Microsoft 365, PostgreSQL
+- Domain context: healthcare operations, audit-sensitive environments
 
 ## How I use AI coding agents
 
@@ -58,7 +61,7 @@ I use AI coding tools as implementation partners, but I do not treat generated c
 - Run the relevant build, type, lint, runtime, browser, or deployment checks before calling work done.
 - Report what was verified, what remains uncertain, and what was intentionally left out of scope.
 
-The goal is not to make AI-assisted code look fast. The goal is to make it stand up to review, failure cases, and real users.
+The goal is to make it stand up to review, failure cases, and real users.
 
 ## Writing
 
