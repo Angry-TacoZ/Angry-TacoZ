@@ -51,7 +51,7 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 
 ## How I use AI coding agents
 
-I use AI coding tools as implementation partners, but I do not treat generated code as automatically acceptable. My working rules are designed to reduce brittle "vibe coding" failure modes:
+I use AI coding agents to help write software, then review the changes before they ship. My process includes:
 
 - Inspect the existing project, contracts, and related systems before editing.
 - Identify trust boundaries for user input, auth, APIs, secrets, files, databases, and deployments.
@@ -60,8 +60,10 @@ I use AI coding tools as implementation partners, but I do not treat generated c
 - Test denied, malformed, missing, and boundary cases, not just the happy path.
 - Run the relevant build, type, lint, runtime, browser, or deployment checks before calling work done.
 - Report what was verified, what remains uncertain, and what was intentionally left out of scope.
+- Use GitAgent and heavily customized `AGENTS.md` files to give coding agents project-specific requirements and quality checks.
+- Use a two-LLM pull request workflow, with one model implementing a change and another reviewing it.
 
-The goal is to make it stand up to review, failure cases, and real users.
+The aim is straightforward: changes should hold up in review, handle failure cases, and work for real users.
 
 ## Writing
 
