@@ -4,6 +4,14 @@ Nontraditional, Neurodivergent systems-oriented builder working at the intersect
 
 I currently spend my time building source-grounded assistants, stakeholder-facing demos, workflow tools, and interactive web projects. I am usually strongest where a problem is ambiguous and you want outside the box thinking grounded in SWE fundamentals
 
+## Accessibility and work design
+
+I'm open about being autistic and having ADHD because both influence how I approach problems, learn new skills, and work with technology.
+
+I do my best work when I can investigate a problem, understand how the pieces fit together, and develop a solution through experimentation. I prefer clear expectations, direct communication, and the freedom to focus deeply on the work.
+
+I share this context to help people understand how I work, but I want my technical abilities to be judged by the projects I've built and the problems I've solved.
+
 ## What I bring
 
 - Systems thinking
@@ -69,6 +77,14 @@ The aim is straightforward: changes should hold up in review, handle failure cas
 
 - [Medium](https://medium.com/@Angry_TacoZ)  
   Public writing on politics, civic issues, personal essays, and AI analysis.
+
+## Selected public evidence
+
+The projects linked above are examples of what I can build using AI-assisted development, experimentation, and iterative problem-solving.
+
+Some of my work is private or was created for specific audiences, but my public repositories and live demos provide concrete examples of my approach to building software.
+
+If you're evaluating me for a role, I encourage you to explore the projects themselves, not just my resume.
 
 ## Contact
 
