@@ -9,15 +9,15 @@ I currently spend my time building source-grounded assistants, stakeholder-facin
 ### Featured AI & workflow systems
 
 1. **[Enthusiast Lens](https://github.com/Angry-TacoZ/enthusiast-lens)** *(Recorded benchmark demo · Python, TypeScript)*  
-   Compares Full-Web vs. Hybrid (exact-VIN vPIC + web) vehicle-fact acquisition on a frozen 12-fixture / 288-slot benchmark (Full-Web 4/4, Hybrid 3/4 with a 90s GR86 timeout; 73.07% vs. 72.45% macro CEFC across the three matched pairs with recorded cost and latency).  
+   Evaluates Full-Web vs. Hybrid (exact-VIN vPIC + web) vehicle-fact acquisition against a frozen 12-fixture, 288-slot benchmark. On the four-vehicle representative execution subset, Full-Web completed 4/4 and Hybrid completed 3/4 (90s GR86 timeout), with matched-pair macro CEFC of 72.45% (Full-Web) vs. 73.07% (Hybrid) — a mixed result with no claim of statistical significance or universal Hybrid advantage; full measurements live in the benchmark README.  
    **[Compare recorded runs](https://angry-tacoz.github.io/enthusiast-lens/)** · [Repository & benchmark README](https://github.com/Angry-TacoZ/enthusiast-lens)
 
 2. **[Delivery Composer](https://github.com/Angry-TacoZ/delivery-composer)** *(Deterministic public demo · FastAPI, React, Cloud Run)*  
-   Turns unstructured consulting briefs into constraint-gated, auditable team recommendations with human review, alongside a separate server-side Gemini and PostgreSQL/`pgvector` extension path in the repository.  
+   Turns unstructured consulting briefs into constraint-gated, auditable team recommendations with human review, alongside a separate optional server-side Gemini and PostgreSQL/`pgvector` extension path in the repository.  
    **[Try a synthetic brief](https://composer.jamesai.space/)** · [Repository & architecture](https://github.com/Angry-TacoZ/delivery-composer)
 
 3. **[Verified Cruise Control](https://github.com/Angry-TacoZ/verified-cruise-control)** *(Local multimodal audit tool · Python, Chrome MV3)*  
-   Cross-checks advertised vehicle ADAS claims against listing photos and vehicle documentation using Meta Muse Spark, SAM 3.1, deterministic five-state reconciliation, enforced spend caps, and CI-pinned `v2`/`v4`/`v5` golden evals (reference-assisted live comparison remains unvalidated).  
+   Multimodal ADAS verification architecture comparing advertised vehicle features against listing photos and documentation using Meta Muse Spark, SAM 3.1, deterministic five-state reconciliation, and enforced spend caps, with adaptive cruise control (ACC) as the current real-listing verification workflow. Offline reconciliation evaluation is validated in CI (`v2`/`v4`/`v5` goldens), while reference-assisted live inference remains unvalidated.  
    **[Inspect a multimodal audit (PR #6)](https://github.com/Angry-TacoZ/verified-cruise-control/pull/6)** · [Repository & evals](https://github.com/Angry-TacoZ/verified-cruise-control)
 
 ### Additional featured projects
@@ -64,8 +64,8 @@ I use AI coding agents to help write software, then review and verify changes be
 - Inspect existing contracts, trust boundaries, and related systems before editing.
 - Keep secrets and paid API keys server-side, never in browser-delivered code or public build artifacts.
 - Prefer framework primitives, typed interfaces, allow-list validation, and parameterized data access over ad hoc shortcuts.
-- Test denied, malformed, missing, and boundary cases, and run build, type, lint, runtime, or browser checks before calling work done.
-- Govern agent work with GitAgent, project-specific `AGENTS.md` contracts, and a two-LLM pull request workflow (one model implements, another reviews).
+- Test denied, malformed, missing, and boundary cases, run relevant build/lint/test/runtime checks, and report verification results, remaining uncertainty, and scope limitations.
+- Govern agent work with GitAgent, project-specific `AGENTS.md` contracts, and a two-model PR workflow: independent review followed by cross-validation of findings against repository evidence before human merge approval.
 
 My [Codex-wide agent instructions](docs/codex/AGENTS.md) describe the rules I use across projects. The [changelog](docs/codex/CHANGELOG.md) explains what I changed and why.
 
