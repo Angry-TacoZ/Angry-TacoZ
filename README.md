@@ -71,6 +71,8 @@ I use AI coding agents to help write software, then review the changes before th
 - Use GitAgent and heavily customized `AGENTS.md` files to give coding agents project-specific requirements and quality checks.
 - Use a two-LLM pull request workflow, with one model implementing a change and another reviewing it.
 
+My [Codex-wide agent instructions](docs/codex/AGENTS.md) describe the rules I use across projects. The [changelog](docs/codex/CHANGELOG.md) explains what I changed and why.
+
 The aim is straightforward: changes should hold up in review, handle failure cases, and work for real users.
 
 ## Writing
